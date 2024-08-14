@@ -1,7 +1,11 @@
+import { Test } from "@/pages/Test"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      App
+      <Test />
+    </div>
   )
 }
 
