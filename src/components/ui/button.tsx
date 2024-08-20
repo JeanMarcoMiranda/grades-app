@@ -5,26 +5,26 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "yesinline-flex yesitems-center yesjustify-center yeswhitespace-nowrap yesrounded-md yestext-sm yesfont-medium yestransition-colors focus-visible:yesoutline-none focus-visible:yesring-1 focus-visible:yesring-zinc-950 disabled:yespointer-events-none disabled:yesopacity-50 dark:focus-visible:yesring-zinc-300",
+  "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 disabled:pointer-events-none disabled:opacity-50 dark:focus-visible:ring-zinc-300",
   {
     variants: {
       variant: {
         default:
-          "yesbg-zinc-900 yestext-zinc-50 yesshadow hover:yesbg-zinc-900/90 dark:yesbg-zinc-50 dark:yestext-zinc-900 dark:hover:yesbg-zinc-50/90",
+          "bg-zinc-900 text-zinc-50 shadow hover:bg-zinc-900/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90",
         destructive:
-          "yesbg-red-500 yestext-zinc-50 yesshadow-sm hover:yesbg-red-500/90 dark:yesbg-red-900 dark:yestext-zinc-50 dark:hover:yesbg-red-900/90",
+          "bg-red-500 text-zinc-50 shadow-sm hover:bg-red-500/90 dark:bg-red-900 dark:text-zinc-50 dark:hover:bg-red-900/90",
         outline:
-          "yesborder yesborder-zinc-200 yesbg-white yesshadow-sm hover:yesbg-zinc-100 hover:yestext-zinc-900 dark:yesborder-zinc-800 dark:yesbg-zinc-950 dark:hover:yesbg-zinc-800 dark:hover:yestext-zinc-50",
+          "border border-zinc-200 bg-white shadow-sm hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50",
         secondary:
-          "yesbg-zinc-100 yestext-zinc-900 yesshadow-sm hover:yesbg-zinc-100/80 dark:yesbg-zinc-800 dark:yestext-zinc-50 dark:hover:yesbg-zinc-800/80",
-        ghost: "hover:yesbg-zinc-100 hover:yestext-zinc-900 dark:hover:yesbg-zinc-800 dark:hover:yestext-zinc-50",
-        link: "yestext-zinc-900 yesunderline-offset-4 hover:yesunderline dark:yestext-zinc-50",
+          "bg-zinc-100 text-zinc-900 shadow-sm hover:bg-zinc-100/80 dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80",
+        ghost: "hover:bg-zinc-100 hover:text-zinc-900 dark:hover:bg-zinc-800 dark:hover:text-zinc-50",
+        link: "text-zinc-900 underline-offset-4 hover:underline dark:text-zinc-50",
       },
       size: {
-        default: "yesh-9 yespx-4 yespy-2",
-        sm: "yesh-8 yesrounded-md yespx-3 yestext-xs",
-        lg: "yesh-10 yesrounded-md yespx-8",
-        icon: "yesh-9 yesw-9",
+        default: "h-9 px-4 py-2",
+        sm: "h-8 rounded-md px-3 text-xs",
+        lg: "h-10 rounded-md px-8",
+        icon: "h-9 w-9",
       },
     },
     defaultVariants: {

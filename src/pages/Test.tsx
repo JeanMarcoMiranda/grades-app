@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 
 export const Test = () => {
   return (
-    <div className="yesflex yesflex-col yesitems-center yesjustify-center yesgap-2 yesh-screen">
+    <div className="flex flex-col items-center justify-center gap-2 h-screen">
       Arreglando las cagadas de jacket
-      <h1 className="yestext-3xl yesfont-bold yesunderline">Hello world!</h1>
-      <Button className="yesmt-6">Holis</Button>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Button className="mt-6">Holis</Button>
     </div>
   );
 };
